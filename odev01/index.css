@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0px;
+  background-color: rgb(240, 240, 240);
+  color: rgb(71, 53, 25);
+  text-align: center;
+  font-size: 1.2em;
+}
+.kart {
+  margin: 20px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mesaj {
+  background-color: gold;
+  visibility: hidden;
+}
+
+.lose {
+  background-color: rgba(228, 78, 78, 0.719);
+  margin-left: 225px;
+  margin-right: 225px;
+  color: black;
+  visibility: visible;
+}
+
+.win {
+  background-color: rgba(124, 251, 65, 0.667);
+  margin-left: 225px;
+  margin-right: 225px;
+  color: black;
+  visibility: visible;
+}
+
+.link {
+  color: blue;
+  cursor: pointer;
+}
